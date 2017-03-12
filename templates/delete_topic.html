@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+
+{% block title %}{{ topic.title }}{% endblock title %}
+
+{% block content %}
+<body>
+
+        <h1>Ali res želiš izbrisati to sporočilo?</h1>
+
+        <form action="/sporocilo/{{ sporocilo.key.id() }}/izbrisi" method="post">
+                <button type="submit">DA, izbriši</button>
+        </form>
+
+</body>
+{% endblock content %}
