@@ -1,5 +1,5 @@
 # 8-lesson-forum
 delete topic from list of topics
 
-https://updateforum-161013.appspot.com
+https://forum-160622.appspot.com
 
