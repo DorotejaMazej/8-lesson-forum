@@ -3,7 +3,7 @@ import webapp2
 from handlers.base import MainHandler, CookieAlertHandler
 from handlers.topics import TopicAdd, TopicDetails, DeleteTopic
 from handlers.comments import CommentAdd
-from handlers.workers.email_comment_worker import EmailNewComment
+from workers.email_comment import EmailNewComment
 
 app = webapp2.WSGIApplication({
     webapp2.Route('/', MainHandler, name="main-page"),
